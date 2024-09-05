@@ -1,5 +1,7 @@
+import Feature from "./components/Feature"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
+import Workflow from "./components/Workflow"
 
 
 function App() {
@@ -9,6 +11,8 @@ function App() {
     <>
     <Header/>
     <HeroSection/>
+    <Feature/>
+    <Workflow/>
         
     </>
   )
